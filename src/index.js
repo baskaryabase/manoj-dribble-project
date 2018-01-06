@@ -69,12 +69,12 @@ class App extends Component {
 			</Nav>
 			<Nav pullRight>
 				<NavItem eventKey={1} href="#">
-					sign in
+					Sign in
 				</NavItem>
 				<NavItem eventKey={2} href="#">
-					sign up
+					Sign up
 				</NavItem>
-        <input placeholder="search" className="input hidden-xs "></input>
+        <input type="text" placeholder="search" className="input hidden-xs "></input>
 			</Nav>
 		</Navbar.Collapse>
 	</Navbar>
